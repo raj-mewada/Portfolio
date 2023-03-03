@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+            <link rel="stylesheet" href="style_portfolio.css">
+            <script src="https://kit.fontawesome.com/7937fe8519.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div id="header">
+        <div class="container">
+            <nav>
+              <img src="./images/sac.png" class="logo">
+              <ul id="sidemenu">
+                <!--Navigation bar start-->
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                <!--Navigation bar end -->
+              </ul>  
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><h2>Developer</h2></p>
+                <h1>Hi, I'm <br><span>Raj Mewada</span><br>from Bhopal</h1>
+            </div>
+            
+        </div>
+       </div>
+       <!--About Section--> 
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/18110.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey, I'm Raj </p>
+                    <!--About Sub Section Skills,Education,Experience-->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <!--- Skils-->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Technical</span><br>C Language, C++, HTML, CSS, JavaScript, JS</li>
+                            <li><span>MS Office</span><br>Excel, Word, PowerPoint, Publisher</li>
+                            <li><span>Editing</span><br>Canva, Adobe Photoshop, CorelDraw</li>
+                        </ul>
+                    </div>
+                    <!--Experience-->
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022 - Present</span><br>Student Activity Council, SISTec-Ratibad Campus</li>
+                            <li><span>2022 - Present</span><br>Member of "Computer Society India"</b></li>
+                            <li><span>2020 - Present</span><br>Computer Science Technology</li>
+                        </ul>
+                    </div>
+                    <!--Education-->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Bachelor of Technology</li>
+                            <li><span>2019 - 2020</span><br>Higher Secondary</li>
+                            <li><span>2017 - 2018</span><br>High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                        The different areas of web design include web graphic design; user interface design; authoring, including 
+                        standardised code and proprietary software; user experience design; and search engine optimization</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-bars"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>User interface design or user interface engineering is the design of user interfaces for machines and software.
+                        LinkedIn even ranked UX design as one of the top 5 in-demand skills as of 2020 while Glassdoor added it to 
+                        their list of best 50 jobs to have in 2022.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2> App Design</h2>
+                    <p>While UI lends itself to the overall style of the app (including the colors, fonts, 
+                        and general look and feel), UX focuses on the actual functionality and usability. 
+                        A large number of users abandon an app after using it for the first time.</p>
+                    <a href="#">learn more</a>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <!----Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg">
+                    <div class="layer">
+                        <h3>Mobile App</h3>
+                        <p>A mobile application or app is a computer program or software application 
+                            designed to run on a mobile device such as a phone, tablet, or watch.</p>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpeg">
+                    <div class="layer">
+                        <h3>Media App</h3>
+                        <p>Every web-based-application that supports information publishing and sharing 
+                            (text, video, audio, photo), the building of personal profiles, connecting to a 
+                            community and searching within the community is considered as a social media application.</p>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpeg">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>Apple Music is a music, audio and video streaming service developed by Apple Inc. 
+                            Users select music to stream to their device on-demand, or they can listen to existing playlists</p>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---contacts-->
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contacts-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rajmewada18110@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 7692007564</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rajrajput181?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/Raj99658433"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://instagram.com/raj_rajput.181?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/raj-mewada-57653a202/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/rajput181"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="cv_raj.pdf" class="btn btn2">Downlod CV</a>
+                </div>
+                <div class="contacts-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ Raj. Made with <i class="fa-solid fa-heart"></i> by Raj Mewada</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzr7mV5406koPMsg6kY0xh1QZi5L1JcS48cr4B6v9Tqqyvgo0NbGafzv1VMu3pfKim-/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> 
+    </body>
+</html>

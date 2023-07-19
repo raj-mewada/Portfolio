@@ -15,5 +15,3 @@ https://github.com/rajput181/-_-2
 
 ---
 <h3 align="center">Hope this application helpful to you !!</h3>
-
-![alt text](http://url/to/photo.jpg)
